@@ -1,0 +1,1 @@
+#opisin kuidas scripti terminalis käivitada,kuidas teha uusi faile ja kuidas terminali lugeda mis oige mis vale.kuidas kirjutada arvutus koode py .mis on true mis false
