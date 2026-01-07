@@ -8,4 +8,18 @@ n = n + n
 nn = n + n
 nnn = n + n
 print(n, '+', nn, '+', nnn, '=',sum)
+n = int(input(" 2 " )"))
+n1 = 2
+n2 = 22
+n3 = 222
+print( n + nn + nnn, "=" ,sum" )
+n = input("Sisesta täisarv vahemikus 1-9: ")
 
+# moodustame nn ja nnn liitmise asemel stringide abil
+n1 = int(n)
+n2 = int(n + n)      # '2' + '2' -> '22'
+n3 = int(n + n + n)  # '2' + '2' + '2' -> '222'
+
+tulemus = n1 + n2 + n3
+
+print(f"{n1} + {n2} + {n3} = {tulemus}")

@@ -26,3 +26,18 @@ def main():
 
 if __name__ == "__main__":
     main()
+KURS = 15.6466  # 1 EUR = 15.6466 EEK
+
+def teisenda_kroonidest_eurodeks(kroonid):
+    return kroonid / KURS
+
+def main():
+    kroonid = 100  # <- siia pane summa, mida tahad teisendada
+
+    eurod = teisenda_kroonidest_eurodeks(kroonid)
+
+    print(f"{kroonid} EEK on {round(eurod)} EUR (ümardatud täisarvuks).")
+    print(f"{kroonid} EEK on {round(eurod, 2)} EUR (ümardatud 2 komakohani).")
+
+if __name__ == "__main__":
+    main()

@@ -10,6 +10,16 @@ circumference = 2 * 3.14 * radius
 print("Radius is:", radius)
 print("Area is:", area)
 print("Circumference is:", circumference)
+# Ringi pindala ja ümbermõõdu arvutamine ilma sisestamiseta
+
+radius = 5  # muuda seda numbrit vastavalt soovile
+
+area = 3.14 * radius * radius
+circumference = 2 * 3.14 * radius
+
+print("Radius is:", radius)
+print("Area is:", area)
+print("Circumference is:", circumference)
 
 
 
