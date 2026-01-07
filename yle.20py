@@ -1,0 +1,7 @@
+# Küsi kasutajalt arv
+x = int(input("Sisesta arv, mille korrutustabelit soovid näha: "))
+
+# Korrutustabel 0..12
+for i in range(13):
+    tulemus = x * i
+    print(f"{x} x {i} = {tulemus}")
